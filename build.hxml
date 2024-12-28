@@ -1,0 +1,8 @@
+-cp src
+-lib heaps
+-lib hide
+# -D analyzer-optimize
+# -hl out/app.c
+-js out/app.js
+-main Main
+-debug

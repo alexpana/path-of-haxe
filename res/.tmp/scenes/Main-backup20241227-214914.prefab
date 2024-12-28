@@ -1,0 +1,17 @@
+{
+	"type": "prefab",
+	"children": [
+		{
+			"type": "model",
+			"name": "player",
+			"source": "models/player.fbx"
+		},
+		{
+			"type": "terrain",
+			"name": "terrain",
+			"surfaceCount": 0,
+			"surfaceSize": 0,
+			"surfaces": []
+		}
+	]
+}

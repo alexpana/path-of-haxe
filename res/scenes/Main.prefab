@@ -1,0 +1,21 @@
+{
+	"type": "prefab",
+	"children": [
+		{
+			"type": "model",
+			"name": "player",
+			"source": "models/player.fbx",
+			"children": [
+				{
+					"type": "camera",
+					"name": "camera",
+					"x": 40,
+					"z": 30,
+					"rotationY": 37.99,
+					"rotationZ": -180,
+					"showFrustum": true
+				}
+			]
+		}
+	]
+}
