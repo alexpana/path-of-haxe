@@ -17,11 +17,10 @@ class Bullet extends Object {
 	}
 
 	override function sync(ctx:RenderContext) {
-		// var newPos = getPosition()
 		setPosition(x
 			+ direction.x * speed * ctx.elapsedTime, y
 			+ direction.y * speed * ctx.elapsedTime, z
 			+ direction.z * speed * ctx.elapsedTime);
-		// syncPos();
+		syncPos();
 	}
 }
